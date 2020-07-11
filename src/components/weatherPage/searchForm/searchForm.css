@@ -1,0 +1,49 @@
+.searchFormContainer {
+  width: 50%;
+}
+@media (max-width: 767.98px) {
+  .searchFormContainer {
+    width: 100%;
+  }
+}
+
+/* override react-select classes */
+.searchFormContainer-dark input {
+  color: white !important;
+}
+
+/* override react-select classes */
+.searchFormContainer .react-select__control {
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  cursor: text !important;
+}
+.searchFormContainer-dark .react-select__menu-list,
+.searchFormContainer-dark .react-select__option {
+  background: rgb(119, 119, 119);
+  color: white;
+}
+
+.searchFormContainer-dark .react-select__option:hover {
+  background: rgb(167, 167, 167);
+}
+/* override react-select classes */
+.searchFormContainer .react-select__control:hover,
+.searchFormContainer .react-select__control:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* override react-select classes */
+.searchFormContainer .react-select__indicators {
+  display: none !important;
+}
+/* override react-select classes */
+.searchFormContainer-light .react-select__control {
+  border-color: #17a2b8 !important;
+}
+
+/* override react-select classes */
+.searchFormContainer-dark .react-select__control {
+  border-color: #e0e0e0 !important;
+}

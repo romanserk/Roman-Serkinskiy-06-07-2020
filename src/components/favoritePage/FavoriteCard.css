@@ -1,0 +1,65 @@
+.favoriteCard {
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  cursor: pointer;
+}
+
+.favoriteCard:hover {
+  box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.15)!important;
+  background-color: rgba(255, 255, 255, 0.876);
+}
+
+.favoriteCard .close {
+  float: right;
+  padding: 1rem 1rem;
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+}
+
+.favoriteCard .list-group-item {
+  background-color: transparent;
+}
+
+.puff-out-center {
+  -webkit-animation: puff-out-center 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+  animation: puff-out-center 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation puff-out-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes puff-out-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    opacity: 0;
+  }
+}
+@keyframes puff-out-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    opacity: 0;
+  }
+}

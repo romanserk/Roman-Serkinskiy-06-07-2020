@@ -1,0 +1,15 @@
+.col-lg-5-cols {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .col-lg-5-cols {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}

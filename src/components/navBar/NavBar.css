@@ -1,0 +1,13 @@
+.themeToggleContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 15;
+  color: white;
+}
+
+/* override react-switch classes */
+.react-switch-bg {
+  background: transparent !important;
+}

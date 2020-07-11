@@ -1,0 +1,48 @@
+.App {
+  min-height: 100vh;
+}
+.light-theme {
+  background: url("./sky_background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.dark-theme {
+  background: url("./dark_sky_background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* override h1, h2, h3, h4, h5, p  font weight*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 300;
+}
+
+
+/* override bootstrap btn class */
+.btn {
+  border-radius: 0px !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #17a2b8;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #148495;
+}
+
