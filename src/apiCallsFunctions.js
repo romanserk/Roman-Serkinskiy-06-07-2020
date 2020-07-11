@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const apiKey = process.env.REACT_APP_ACCU_API_KEY_V1;
-//const apiKey = process.env.REACT_APP_ACCU_API_KEY_V2;
+//const apiKey = process.env.REACT_APP_ACCU_API_KEY_V1;
+const apiKey = process.env.REACT_APP_ACCU_API_KEY_V2;
 
 export const getAutocompleteCityList = async (seatchString) => {
   return axios
